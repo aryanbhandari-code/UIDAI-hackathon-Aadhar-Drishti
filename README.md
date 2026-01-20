@@ -16,7 +16,10 @@
 Unlike traditional dashboards that only *display* data, Aadhaar Drishti *acts* on it—using **Unsupervised Machine Learning** to detect anomalies and **Generative AI** to draft legal notices and answer policy queries in local Indian languages.
 
 ---
-
+### ⚠️ Important Note Regarding Dataset
+**This repository contains a `Sample Dataset` (top 1,000 rows) for demonstration purposes.** Due to GitHub's file size limits (100MB), the full raw dataset (200MB+) could not be uploaded. 
+* **For Judges:** The deployed Streamlit App and Demo Video showcase the system running on the **full dataset**.
+* **For Developers:** If cloning this repo, please replace the files in `data/` with the full UIDAI dataset to reproduce the complete results.
 ## 🚀 Key Features (The 4 Pillars)
 
 ### 1. 🔴 Satark Monitor (Live Anomaly Detection)
@@ -105,4 +108,5 @@ aadhaar-drishti/
 ├── genai_tools.py          # Gemini AI Integration (Chat & PDF)
 ├── requirements.txt        # Python Dependencies
 └── README.md               # Project Documentation
+
 ```
